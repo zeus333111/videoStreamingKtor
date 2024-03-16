@@ -1,0 +1,17 @@
+GET http://localhost:8080/chunk-stream1-00005.m4s
+Accept: application/json
+
+###
+GET http://localhost:8080/index.mpd
+Accept: application/json
+
+###
+
+GET http://localhost:8080/files
+Accept: application/json
+
+###
+
+
+https://dash.akamaized.net/akamai/bbb_30fps/bbb_a64k/bbb_a64k_24.m4a
+https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd
